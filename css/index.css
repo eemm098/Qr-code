@@ -23,13 +23,13 @@ body{
 .card{
     max-width: 22em;
     height: 34em;
-    border-radius: 2em;
+    border-radius: 1em;
     background-color: white;
      padding: var(--padding);
 }
   .card  section img{
-   width: 20em;
-border-radius: 2em;
+   max-width: 100%;
+border-radius: 1em;
   }
   .card  section:nth-child(2){
     padding: 0px var(--padding);
